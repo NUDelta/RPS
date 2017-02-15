@@ -1,0 +1,30 @@
+{"next_steps_array":[
+	{
+		"qn_number": 13,
+		"qn_title": "Why would the design work?",
+		"best_practices": [
+			{
+				"bp_number":45,
+				"bp_text":"Review Design Arguments"
+			}, 
+			{
+				"bp_number":61,
+				"bp_text":"Test Design Arguments"
+			}		
+		]
+	},
+	{
+		"qn_number": 15,
+		"qn_title": "What is your design argument?",
+		"best_practices": [
+			{
+				"bp_number":70,
+				"bp_text":"Review characteristics"
+			}, 
+			{
+				"bp_number":11,
+				"bp_text":"See examples"
+			}		
+		]
+	}
+]}
