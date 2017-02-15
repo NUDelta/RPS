@@ -12,13 +12,15 @@
 						"question_number":1,
 						"question_text":"Who are the users?",
 						"question_answers": "people",
-						"question_updated":0
+						"question_updated":0,
+						"question_confidence":2
 					},
 					{
 						"question_number":2,
 						"question_text":"Who are the users?",
 						"question_answers": "people",
-						"question_updated":0
+						"question_updated":0,
+						"question_confidence":4
 					}
 				]
 			}, 
@@ -31,13 +33,15 @@
 						"question_number":3,
 						"question_text":"Who are the users?",
 						"question_answers": "people",
-						"question_updated":1
+						"question_updated":1,
+						"question_confidence":1
 					},
 					{
 						"question_number":4,
 						"question_text":"Who are the users?",
 						"question_answers": "people",
-						"question_updated":0
+						"question_updated":0,
+						"question_confidence":2
 					}	
 				]
 			}

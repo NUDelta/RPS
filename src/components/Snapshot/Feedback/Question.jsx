@@ -18,7 +18,8 @@ class Question extends React.Component {
         return (
           <div>
             <h4 style={question_color}>
-              {'Qn '+this.props.questionData.question_number + ': '+ this.props.questionData.question_text}
+              <span className="badge">{this.props.questionData.question_confidence}</span>
+              {'  Qn '+this.props.questionData.question_number + ': '+ this.props.questionData.question_text}
             </h4>
             <p>{this.props.questionData.question_answers}</p>
           </div>
