@@ -38,9 +38,9 @@ class Feedback extends React.Component {
             <Nav updateDA={this.updateDesignArgumentNumber.bind(this)} 
                   numberOfDAs={da_array['da_array'].length} />
             <h1>{this.state.da.da_title + ':' + this.state.da.da_number}</h1>
-          	<div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          	
                 {sections}
-            </div>
+            
           </div>
         );
     }
