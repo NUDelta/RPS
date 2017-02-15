@@ -24,7 +24,7 @@ class QuestionSection extends React.Component {
                   <div className='panel panel-default'>
                   <div className="panel-heading" role="tab" id={"heading"+this.props.questionData.qn_number}>
                     <h4 className="panel-title">
-                      <a role="button" data-toggle="collapse" data-parent="#accordion" href={"#collapse"+this.props.questionData.qn_number} aria-expanded="true" aria-controls="collapseOne">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href={"#collapse"+this.props.questionData.qn_number} aria-expanded="true" aria-controls={"collapse"+this.props.questionData.qn_number}>
                         {this.props.questionData.qn_number + '. ' + this.props.questionData.qn_title}
                       </a>
                     </h4>

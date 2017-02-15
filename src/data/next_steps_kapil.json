@@ -1,0 +1,50 @@
+{"next_steps_array":[
+	{
+		"qn_number": 7,
+		"qn_title": "Why do users care? Is this an important problem?",
+		"best_practices": [
+			{
+				"bp_number":45,
+				"bp_text":"Are you solving a novel problem? If this problem is not solved what is wrong with the status quo? Make us care; what are some stats/user stories. Cite your evidence."
+			}	
+		]
+	},
+	{
+		"qn_number": 13,
+		"qn_title": "Why would the design work?",
+		"best_practices": [
+			{
+				"bp_number":68,
+				"bp_text":"Are the arguments sound? What existing evidence (e.g. from literature, past designs, knowledge of problem and users) do you have that support their efficacy?"
+			}	
+		]
+	},
+	{
+		"qn_number": 14,
+		"qn_title": "What is your conceptual approach to solving the problem?",
+		"best_practices": [
+			{
+				"bp_number":70,
+				"bp_text":"This should be a concise, one sentence statement of desired outcome, intervention, and why it should work. See some example [one-line pitches here](http://www.thepitchclinic.com/investor-pitch/how-to-craft-a-one-liner-pitch)."
+			}
+		]
+	},
+	{ 
+		"qn_number": 16,
+		"qn_title": "Will your design work? Is it novel?",
+		"best_practices": [
+			{
+				"bp_number":74,
+				"bp_text":"Be specific about user recruitment, the scenario in which you will test, what exactly will the users be doing in this scenario, and how you will be able to facilitate the test."
+			}, 
+			{
+				"bp_number":75,
+				"bp_text":"Be specific about measurements. What will you measure and how will it confirm/deny your design argument? Note that you should aim to measure not only outcomes but causes for outcomes."
+			}, 
+			{
+				"bp_number":76,
+				"bp_text":"Reevaluate your design arguments using [these questions](https://drive.google.com/drive/u/1/folders/0B1W1NVL-15FBUHlxT0dDYVRrVVk)"
+			}		
+		]
+	}
+]}

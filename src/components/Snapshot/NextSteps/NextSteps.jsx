@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
-import next_steps_array from '../../../data/next_steps_test.json';
+import next_steps_array from '../../../data/next_steps_kapil.json';
 
 import QuestionSection from './QuestionSection';
 import Input from './Input';
