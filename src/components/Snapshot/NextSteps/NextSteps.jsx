@@ -21,7 +21,7 @@ class NextSteps extends React.Component {
     addSuggestedFocus(text) {
         this.setState({
             suggestedFocuses: this.state.suggestedFocuses.concat(
-                <SuggestedFocus text={text} />
+                <SuggestedFocus text={text} key={this.state.suggestedFocuses.length}/>
             )
         });
     }

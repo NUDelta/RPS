@@ -9,8 +9,7 @@ class Input extends React.Component {
 	constructor(props) {
         super(props);
         this.state = {
-            text: '',
-            key: 0
+            text: ''
         }
     }
 
@@ -19,8 +18,7 @@ class Input extends React.Component {
         console.log(this.state.text);
         this.props.addSuggestedFocus(this.state.text);
         this.setState({
-            text: '',
-            key: this.state.key + 1
+            text: ''
         });
     }
 
@@ -40,7 +38,6 @@ class Input extends React.Component {
                     id="nextSteps" 
                     value={this.state.text}
                     autoComplete="off"
-                    key={this.state.key}
                 />
               </form>
             </div>
