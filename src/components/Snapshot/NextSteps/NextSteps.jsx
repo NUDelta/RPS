@@ -12,7 +12,7 @@ class NextSteps extends React.Component {
     render() {
         return (
         	<div>
-        		<h1>NextSteps</h1>
+        		<h1>Next Steps</h1>
             </div>
         );
     }

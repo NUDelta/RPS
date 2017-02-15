@@ -3,6 +3,7 @@ import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
 import da_array from '../../../data/da_array_test.json';
 
+
 import Nav from './Nav';
 import Section from './Section';
 
@@ -37,10 +38,8 @@ class Feedback extends React.Component {
           <div>
             <Nav updateDA={this.updateDesignArgumentNumber.bind(this)} 
                   numberOfDAs={da_array['da_array'].length} />
-            <h1>{this.state.da.da_title + ':' + this.state.da.da_number}</h1>
-          	
-                {sections}
-            
+            <h3>{this.state.da.da_title + ':' + this.state.da.da_number}</h3>
+            {sections}
           </div>
         );
     }

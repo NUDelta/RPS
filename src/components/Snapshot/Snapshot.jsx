@@ -4,6 +4,7 @@ import classNames from 'classnames/bind';
 
 import Feedback from './Feedback/Feedback';
 import NextSteps from './NextSteps/NextSteps';
+import Issues from './Issues/Issues';
 
 let cx = classNames.bind(styles);
 
@@ -14,8 +15,12 @@ class Snapshot extends React.Component {
 
     render() {
         return (
-        	<div>
+        	<div className="container-fluid">
+                <h1>Snapshot</h1>
         		<Feedback/>
+                <hr />
+                <Issues/>
+                <hr/>
                 <NextSteps/>
             </div>
         );

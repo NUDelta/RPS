@@ -25,13 +25,15 @@ class Nav extends React.Component {
                 type="button" 
                 className="btn btn-default" 
                 data-number={i+1}
-                onClick={this.handleButtonClick}>{i + 1}</button>
+                onClick={this.handleButtonClick}>Design Argument {i + 1}</button>
             );
         }
         return (
-            <div className="btn-group" role="group" aria-label="...">
+          <div>
+            <div className="btn-group btn-group-lg" role="group" aria-label="...">
               {navButtons}
             </div>	
+          </div>
         );
     }
 }
