@@ -31,6 +31,7 @@
     "path": "^0.12.7",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-markdown": "^2.4.4",
     "react-router": "^2.6.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
