@@ -1,0 +1,270 @@
+{"da_array":[
+	{
+		"da_number": 1,
+		"da_title": "Design Argument 1",
+		"sections": [
+			{
+				"section_number":3,
+				"section_title":"Describe broader impact",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":6,
+						"question_text":"Who is the practical audience?",
+						"question_answers": "-Any user who has a smartphone and wants to learn about places nearby<br />-Any researcher who is looking for data that cannot be gathered from existing platforms<br />-Researchers who wish to gather data about particular places/things that cannot be gathered from existing platforms",
+						"question_updated":1,
+						"question_confidence":4.3
+					},
+					{
+						"question_number":7,
+						"question_text":"Why do they care? (is this problem important?)",
+						"question_answers": "-Users like to know about opportunities that are of interest to them<br />-Ability to use data to map and understand greater trends of crowds",
+						"question_updated":0,
+						"question_confidence":4
+					},
+					{
+						"question_number":8,
+						"question_text":"What's your problem statement?  (Does it capture a core tension? Agent wants X but Y)",
+						"question_answers": "How might we develop a system where on-the-go crowds can contribute data with low-effort about physical locations that when scaffolded together creates high-fidelity data, which can both be used to incentivize more users to contribute and be used to understand general patterns in crowds in specific regions?",
+						"question_updated":0,
+						"question_confidence":3.5
+					}
+				]
+			}, 
+			{
+				"section_number":8,
+				"section_title":"Write the design argument.",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "If you want to encourage users to keep contributing data to a community, then it is advisable to provide them with data that shows the number of times they've contributed and how many people have seen their contribution, and to do that using a user profile affordance that is visible by both the user themselves and other users because this will ensure that users feel that their contributions are being used and encourage other users to want to contribute more to participate in the community.",
+						"question_updated":0,
+						"question_confidence":4
+					}	
+				]
+			}
+		]
+	},
+	{
+		"da_number": 2,
+		"da_title": "Design Argument 2",
+		"sections": [
+			{
+				"section_number":3,
+				"section_title":"Describe broader impact",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":6,
+						"question_text":"Who is the practical audience?",
+						"question_answers": "-Any user who has a smartphone and wants to learn about places nearby<br />-Any researcher who is looking for data that cannot be gathered from existing platforms<br />-Researchers who wish to gather data about particular places/things that cannot be gathered from existing platforms",
+						"question_updated":1,
+						"question_confidence":4.3
+					},
+					{
+						"question_number":7,
+						"question_text":"Why do they care? (is this problem important?)",
+						"question_answers": "-Users like to know about opportunities that are of interest to them<br />-Ability to use data to map and understand greater trends of crowds",
+						"question_updated":0,
+						"question_confidence":4
+					},
+					{
+						"question_number":8,
+						"question_text":"What's your problem statement?  (Does it capture a core tension? Agent wants X but Y)",
+						"question_answers": "How might we develop a system where on-the-go crowds can contribute data with low-effort about physical locations that when scaffolded together creates high-fidelity data, which can both be used to incentivize more users to contribute and be used to understand general patterns in crowds in specific regions?",
+						"question_updated":0,
+						"question_confidence":3.5
+					}
+				]
+			}, 
+			{
+				"section_number":8,
+				"section_title":"Write the design argument.",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "If you want to ensure that users who view data can trust what they see and can act upon the data when on-the-go, then it is best to show who has contributed the data to the location (primary and secondary responders) and when the data was last updated. To enable this, create an affordance similar to a map view where users can see all locations on a map and see more information when interacting with them, because this will allow users to see information about the places of interest nearby and other places they might want to go to before going there while being confident about how the data they are seeing was collected.",
+						"question_updated":0,
+						"question_confidence":4
+					}	
+				]
+			}
+		]
+	},
+	{
+		"da_number": 3,
+		"da_title": "Design Argument 3",
+		"sections": [
+			{
+				"section_number":3,
+				"section_title":"Describe broader impact",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":6,
+						"question_text":"Who is the practical audience?",
+						"question_answers": "-Any user who has a smartphone and wants to learn about places nearby<br />-Any researcher who is looking for data that cannot be gathered from existing platforms<br />-Researchers who wish to gather data about particular places/things that cannot be gathered from existing platforms",
+						"question_updated":1,
+						"question_confidence":4.3
+					},
+					{
+						"question_number":7,
+						"question_text":"Why do they care? (is this problem important?)",
+						"question_answers": "-Users like to know about opportunities that are of interest to them<br />-Ability to use data to map and understand greater trends of crowds",
+						"question_updated":0,
+						"question_confidence":4
+					},
+					{
+						"question_number":8,
+						"question_text":"What's your problem statement?  (Does it capture a core tension? Agent wants X but Y)",
+						"question_answers": "How might we develop a system where on-the-go crowds can contribute data with low-effort about physical locations that when scaffolded together creates high-fidelity data, which can both be used to incentivize more users to contribute and be used to understand general patterns in crowds in specific regions?",
+						"question_updated":0,
+						"question_confidence":3.5
+					}
+				]
+			}, 
+			{
+				"section_number":8,
+				"section_title":"Write the design argument.",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "If you want to encourage users to continue contributing data to LES, then it’s advised to ensure that data they are receiving is (1) relevant to their interests, (2) provided at a time when they can likely use the data, and (3) is unique to the LES and to do that by providing them with data when they are close to (but not at) the location of something they may find interesting or by allowing them to query LES for data about certain places of interest because users are more likely to contribute to the system if they can obtain some benefit from it and will also be more likely to think of LES in situations where they could report new things to track.",
+						"question_updated":0,
+						"question_confidence":4
+					}	
+				]
+			}
+		]
+	},
+	{
+		"da_number": 4,
+		"da_title": "Design Argument 4",
+		"sections": [
+			{
+				"section_number":3,
+				"section_title":"Describe broader impact",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":6,
+						"question_text":"Who is the practical audience?",
+						"question_answers": "-Any user who has a smartphone and wants to learn about places nearby<br />-Any researcher who is looking for data that cannot be gathered from existing platforms<br />-Researchers who wish to gather data about particular places/things that cannot be gathered from existing platforms",
+						"question_updated":1,
+						"question_confidence":4.3
+					},
+					{
+						"question_number":7,
+						"question_text":"Why do they care? (is this problem important?)",
+						"question_answers": "-Users like to know about opportunities that are of interest to them<br />-Ability to use data to map and understand greater trends of crowds",
+						"question_updated":0,
+						"question_confidence":4
+					},
+					{
+						"question_number":8,
+						"question_text":"What's your problem statement?  (Does it capture a core tension? Agent wants X but Y)",
+						"question_answers": "How might we develop a system where on-the-go crowds can contribute data with low-effort about physical locations that when scaffolded together creates high-fidelity data, which can both be used to incentivize more users to contribute and be used to understand general patterns in crowds in specific regions?",
+						"question_updated":0,
+						"question_confidence":3.5
+					}
+				]
+			}, 
+			{
+				"section_number":6,
+				"section_title":"Describe design intervention",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":12,
+						"question_text":"What are the core characteristics of your design?",
+						"question_answers": "The ability to provide high-fidelity data through the scaffolding of low-effort, low-fidelity contributions.",
+						"question_updated":1,
+						"question_confidence":3
+					}	
+				]
+			},
+			{
+				"section_number":8,
+				"section_title":"Write the design argument.",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "If you want to design a system that allows user to ingest high-fidelity data that is contributed by low-effort contributions, then it is necessary that low-fidelity components can build upon each other to achieve high-fidelity data. To ensure that this is done using low-effort, we present a user a question that is a component of the dataset as they pass by the target location that can be answered using pre-defined categorical responses. This will work because individual users will be able to answer components of the dataset with a low amount of effort and in having subsequent users answer questions that have not yet been answered, all the questions in the dataset will be answered and high-fidelity data will be achieved.",
+						"question_updated":0,
+						"question_confidence":4
+					}	
+				]
+			}
+		]
+	},
+	{
+		"da_number": 5,
+		"da_title": "Design Argument 5",
+		"sections": [
+			{
+				"section_number":3,
+				"section_title":"Describe broader impact",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":6,
+						"question_text":"Who is the practical audience?",
+						"question_answers": "-Any user who has a smartphone and wants to learn about places nearby<br />-Any researcher who is looking for data that cannot be gathered from existing platforms<br />-Researchers who wish to gather data about particular places/things that cannot be gathered from existing platforms",
+						"question_updated":1,
+						"question_confidence":4.3
+					},
+					{
+						"question_number":7,
+						"question_text":"Why do they care? (is this problem important?)",
+						"question_answers": "-Users like to know about opportunities that are of interest to them<br />-Ability to use data to map and understand greater trends of crowds",
+						"question_updated":0,
+						"question_confidence":4
+					},
+					{
+						"question_number":8,
+						"question_text":"What's your problem statement?  (Does it capture a core tension? Agent wants X but Y)",
+						"question_answers": "How might we develop a system where on-the-go crowds can contribute data with low-effort about physical locations that when scaffolded together creates high-fidelity data, which can both be used to incentivize more users to contribute and be used to understand general patterns in crowds in specific regions?",
+						"question_updated":0,
+						"question_confidence":3.5
+					}
+				]
+			},
+			{
+				"section_number":6,
+				"section_title":"Describe design intervention",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":12,
+						"question_text":"What are the core characteristics of your design?",
+						"question_answers": "The ability for the system to coordinate users to regions with lower fidelity and coverage to achieve set goals.",
+						"question_updated":1,
+						"question_confidence":3
+					}	
+				]
+			},
+			{
+				"section_number":8,
+				"section_title":"Write the design argument.",
+				"section_updated":1,
+				"questions":[
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "If you want to ensure that data fidelity and coverage goals are being met, then it’s advised to create a system that notifies users when they are near a place of interest to them, but may still be some distance away in order to direct them to this location for data contribution To do this, we present a user with a certain amount of information that is enough to incentivize them to go to the location we wish for them to be at. This system works because it gives users data that they are interested in which then acts as an incentive for them to go to the location and learn more about it, where they can then provide more information to the system.",
+						"question_updated":1,
+						"question_confidence":3
+					}	
+				]
+			}
+		]
+	}
+]}

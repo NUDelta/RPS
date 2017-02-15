@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
-import da_array from '../../../data/da_array_test.json';
+import da_array from '../../../data/da_array_kapil.json';
 
 
 import Nav from './Nav';
@@ -29,16 +29,17 @@ class Feedback extends React.Component {
     }
     render() {
         var sections = [];
-        for(var i = 0; i < this.state.da.sections.length; i = i + 1){
+        for(var i = 1; i < this.state.da.sections.length; i = i + 1){
           sections.push(
               <Section key={i} sectionData={this.state.da.sections[i]}  />
             );
         }
         return (
           <div>
+            <Section key={3} sectionData={this.state.da.sections[0]} />
             <Nav updateDA={this.updateDesignArgumentNumber.bind(this)} 
                   numberOfDAs={da_array['da_array'].length} />
-            <h3>{this.state.da.da_title + ':' + this.state.da.da_number}</h3>
+            <h3>{this.state.da.da_title}</h3>
             {sections}
           </div>
         );
