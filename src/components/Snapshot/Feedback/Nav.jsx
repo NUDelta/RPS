@@ -23,7 +23,7 @@ class Nav extends React.Component {
               <button 
                 key={i}
                 type="button" 
-                className="btn btn-default" 
+                className={this.props.isUpdated[i] ? 'btn btn-success' : 'btn btn-default'}
                 data-number={i+1}
                 onClick={this.handleButtonClick}>Design Argument {i + 1}</button>
             );

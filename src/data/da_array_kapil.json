@@ -2,6 +2,7 @@
 	{
 		"da_number": 1,
 		"da_title": "Design Argument 1",
+		"da_updated": 0,
 		"sections": [
 			{
 				"section_number":3,
@@ -50,6 +51,7 @@
 	{
 		"da_number": 2,
 		"da_title": "Design Argument 2",
+		"da_updated": 0,
 		"sections": [
 			{
 				"section_number":3,
@@ -98,6 +100,7 @@
 	{
 		"da_number": 3,
 		"da_title": "Design Argument 3",
+		"da_updated": 0,
 		"sections": [
 			{
 				"section_number":3,
@@ -146,6 +149,7 @@
 	{
 		"da_number": 4,
 		"da_title": "Design Argument 4",
+		"da_updated": 1,
 		"sections": [
 			{
 				"section_number":3,
@@ -208,6 +212,7 @@
 	{
 		"da_number": 5,
 		"da_title": "Design Argument 5",
+		"da_updated": 1,
 		"sections": [
 			{
 				"section_number":3,

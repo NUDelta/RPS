@@ -38,7 +38,8 @@ class Feedback extends React.Component {
           <div>
             <Section key={3} sectionData={this.state.da.sections[0]} />
             <Nav updateDA={this.updateDesignArgumentNumber.bind(this)} 
-                  numberOfDAs={da_array['da_array'].length} />
+                  numberOfDAs={da_array['da_array'].length}
+                  isUpdated={[0,0,0,1,1]} />
             <h3>{this.state.da.da_title}</h3>
             {sections}
           </div>
