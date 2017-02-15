@@ -37,6 +37,10 @@ module.exports = {
             {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,
                 loader: ExtractTextPlugin.extract('file?name=src/static/fonts/[name].[ext]')
+            },
+            {
+                test: /\.json$/,
+                loader:'json'
             }
         ]
     },

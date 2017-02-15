@@ -17,23 +17,20 @@ class Nav extends React.Component {
     }
 
     render() {
+        var navButtons = [];
+        for(var i = 0; i < this.props.numberOfDAs; i = i + 1) {
+          navButtons.push(
+              <button 
+                key={i}
+                type="button" 
+                className="btn btn-default" 
+                data-number={i+1}
+                onClick={this.handleButtonClick}>{i + 1}</button>
+            );
+        }
         return (
             <div className="btn-group" role="group" aria-label="...">
-              <button 
-                type="button" 
-                className="btn btn-default" 
-                data-number="1"
-                onClick={this.handleButtonClick}>1</button>
-              <button 
-                type="button" 
-                className="btn btn-default" 
-                data-number="2"
-                onClick={this.handleButtonClick}>2</button>
-              <button 
-                type="button" 
-                className="btn btn-default" 
-                data-number="3"
-                onClick={this.handleButtonClick}>3</button>
+              {navButtons}
             </div>	
         );
     }
