@@ -12,57 +12,57 @@
 						"question_number":9,
 						"question_text":"What’s a real example of what a user wants to do? (concrete user class / scenario)",
 						"question_answers": "da1_answer_9",
-						"question_updated":1,
+						"question_updated":0,
 						"question_confidence":1
 					},
 					{
 						"question_number":10,
 						"question_text":"What should users do? (and what should happen when the do?)",
-						"question_answers": "da1_answer_10",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "User should be able to bring to screen whatever they think of in their head without being bogged down in granularities.",
+						"question_updated":1,
+						"question_confidence":2
 					}
 				]
 			},
 			{
 				"section_number":5,
 				"section_title":"Describe core obstacles",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":11,
 						"question_text":"Where can designs go wrong? What may prevent a user from reaching their goal?",
-						"question_answers": "da1_answer_11",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "User doesn’t understand the problem statement (especially from lack of javascript-specific knowledge) or is unable to work through the problem because he or she can’t debug/fix mistakes",
+						"question_updated":1,
+						"question_confidence":4
 					}
 				]
 			},
 			{
 				"section_number":6,
 				"section_title":"Describe the design intervention",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":12,
 						"question_text":"What are the core characteristics of your design?",
-						"question_answers": "da1_answer_12",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "Educational: tasks are designed to encourage users to practice their coding skills and learn new things",
+						"question_updated":1,
+						"question_confidence":3
 					}
 				]
 			},
 			{
 				"section_number":7,
 				"section_title":"Constructing arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":13,
 						"question_text":"Why would the design work?",
-						"question_answers": "da1_answer_13",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "users must tackle new challenges and learn to break down problems in systematic ways",
+						"question_updated":1,
+						"question_confidence":3
 					}
 				]
 			},
@@ -90,13 +90,13 @@
 			{
 				"section_number":9,
 				"section_title":"Check your arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":16,
 						"question_text":"Will your design work? Is it novel?",
-						"question_answers": "da1_answer_16",
-						"question_updated":0,
+						"question_answers": "Educational: tasks are designed to encourage users to practice their coding skills and learn new things. Task could fail if users get bogged down in specifics and don’t understand the semantics of one language (e.g. javascript object => python dict)",
+						"question_updated":1,
 						"question_confidence":1
 					}
 				]
@@ -110,7 +110,7 @@
 			{
 				"section_number":4,
 				"section_title":"Describe the desire outcomes",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":9,
@@ -122,51 +122,51 @@
 					{
 						"question_number":10,
 						"question_text":"What should users do? (and what should happen when the do?)",
-						"question_answers": "da2_answer_10",
+						"question_answers": "User should be able to communicate both verbally and with code with teammates and understand the code of other teammates",
 						"question_updated":0,
-						"question_confidence":1
+						"question_confidence":4
 					}
 				]
 			},
 			{
 				"section_number":5,
 				"section_title":"Describe core obstacles",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":11,
 						"question_text":"Where can designs go wrong? What may prevent a user from reaching their goal?",
-						"question_answers": "da2_answer_11",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "User doesn’t communicate with teammates because he or she doesn’t understand what the other(s) is/are doing",
+						"question_updated":1,
+						"question_confidence":3
 					}
 				]
 			},
 			{
 				"section_number":6,
 				"section_title":"Describe the design intervention",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":12,
 						"question_text":"What are the core characteristics of your design?",
-						"question_answers": "da2_answer_12",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "Social: tasks requires users to talk together",
+						"question_updated":1,
+						"question_confidence":5
 					}
 				]
 			},
 			{
 				"section_number":7,
 				"section_title":"Constructing arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":13,
 						"question_text":"Why would the design work?",
-						"question_answers": "da2_answer_13",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "when users are forced to vocalize their thought processes, they understand the problem better because they are able to explain it to someone else",
+						"question_updated":1,
+						"question_confidence":5
 					}
 				]
 			},
@@ -194,14 +194,14 @@
 			{
 				"section_number":9,
 				"section_title":"Check your arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":16,
 						"question_text":"Will your design work? Is it novel?",
-						"question_answers": "da2_answer_16",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "Social: tasks requires users to talk together. The task is structured in such a way that a person wouldn’t be expected to be able to complete it on his or her own in one sitting (especially if that person is a beginner- to intermediate-level programmer). Because of this, teammates are forced to communicate in order to build on each others’ progress and make it to the end",
+						"question_updated":1,
+						"question_confidence":4
 					}
 				]
 			}
@@ -214,7 +214,7 @@
 			{
 				"section_number":4,
 				"section_title":"Describe the desire outcomes",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":9,
@@ -226,22 +226,22 @@
 					{
 						"question_number":10,
 						"question_text":"What should users do? (and what should happen when the do?)",
-						"question_answers": "da3_answer_10",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "User should not be able to complete the task all on his or her own",
+						"question_updated":1,
+						"question_confidence":3
 					}
 				]
 			},
 			{
 				"section_number":5,
 				"section_title":"Describe core obstacles",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":11,
 						"question_text":"Where can designs go wrong? What may prevent a user from reaching their goal?",
-						"question_answers": "da3_answer_11",
-						"question_updated":0,
+						"question_answers": "User is able to complete the problem on his or her own",
+						"question_updated":1,
 						"question_confidence":1
 					}
 				]
@@ -249,28 +249,28 @@
 			{
 				"section_number":6,
 				"section_title":"Describe the design intervention",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":12,
 						"question_text":"What are the core characteristics of your design?",
-						"question_answers": "da3_answer_12",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "Collaborative: tasks given are not able to be completed individually",
+						"question_updated":1,
+						"question_confidence":4
 					}
 				]
 			},
 			{
 				"section_number":7,
 				"section_title":"Constructing arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":13,
 						"question_text":"Why would the design work?",
-						"question_answers": "da3_answer_13",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "users who aren’t used to working with other people closely (e.g. in pair programming) would find it helpful to have someone available to talk through the problem with, check their work, etc",
+						"question_updated":1,
+						"question_confidence":4
 					}
 				]
 			},
@@ -298,14 +298,14 @@
 			{
 				"section_number":9,
 				"section_title":"Check your arguments",
-				"section_updated":0,
+				"section_updated":1,
 				"questions":[
 					{
 						"question_number":16,
 						"question_text":"Will your design work? Is it novel?",
-						"question_answers": "da3_answer_16",
-						"question_updated":0,
-						"question_confidence":1
+						"question_answers": "Collaborative: tasks given are not able to be completed individually. The time constraints were good in that they made it pretty much impossible for a person to implement an entire function in just 10 minutes; the actual challenge could be structured in a more co-dependent way though.",
+						"question_updated":1,
+						"question_confidence":4
 					}
 				]
 			}
