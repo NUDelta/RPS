@@ -1,6 +1,9 @@
 import React from 'react';
+import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
 import ReactMarkdown from 'react-markdown';
-import styles from '../styles/Snapshot.css';
+import {Grid, Row, Col} from 'react-flexbox-grid';
+
+import styles from './styles/Question.css';
 import classNames from 'classnames/bind';
 
 let cx = classNames.bind(styles);
@@ -17,13 +20,20 @@ class Question extends React.Component {
         question_color = {color:'black'}
       }
         return (
-          <div>
-            <h4 style={question_color}>
-              <span className="badge">{this.props.questionData.question_confidence}</span>
-              {'  Qn '+this.props.questionData.question_number + ': '+ this.props.questionData.question_text}
-            </h4>
-            <p> <ReactMarkdown source={this.props.questionData.question_answers}/></p>
-          </div>
+            <Row>
+                <Col xs={12}>
+                    <Card className={cx('question')}>
+                        <CardHeader
+                            title={"Q" + this.props.questionData.question_number + ": " + this.props.questionData.question_text}
+                            actAsExpander={true}
+                            showExpandableButton={true}
+                        />
+                        <CardText expandable={true}> 
+                            <ReactMarkdown source={this.props.questionData.question_answers}/>
+                        </CardText>
+                    </Card>
+                </Col>
+            </Row>
         );
     }
 }

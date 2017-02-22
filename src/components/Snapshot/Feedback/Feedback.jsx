@@ -1,4 +1,8 @@
 import React from 'react';
+import {Tabs, Tab} from 'material-ui/Tabs';
+import {Card, CardHeader} from 'material-ui/Card';
+import SwipeableViews from 'react-swipeable-views';
+
 import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
 import da_array from '../../../data/da_array_kapil.json';
@@ -13,36 +17,50 @@ class Feedback extends React.Component {
 	constructor(props) {
         super(props);
         this.state = {
-          da: da_array['da_array'][0]
+          arguments: da_array['da_array'],
+          slideIndex: 0
         };
-        console.log(da_array);
     }
-    updateTitleText(title){
-      this.setState({
-        'da_title':title
-      });
+    handleChange(value) {
+        this.setState({
+            slideIndex: value
+        });
     }
-    updateDesignArgumentNumber(num){
-      this.setState({
-        'da': da_array['da_array'][num - 1]
-      });
-    }
+
     render() {
-        var sections = [];
-        for(var i = 1; i < this.state.da.sections.length; i = i + 1){
-          sections.push(
-              <Section key={i} sectionData={this.state.da.sections[i]}  />
+        let tabs = [];
+        let sections = [];
+        let swipeIterator = 0;
+
+        for (var da of this.state.arguments) {
+        
+            for (var section of da.sections) {
+                sections.push(<Section sectionData={section} />);
+            }
+
+            tabs.push(
+                <Tab key={swipeIterator} value={swipeIterator} label={"D. Argument #" + da.da_number}></Tab>
             );
+
+            swipeIterator++;
         }
+
+
         return (
-          <div>
-            <Section key={3} sectionData={this.state.da.sections[0]} />
-            <Nav updateDA={this.updateDesignArgumentNumber.bind(this)} 
-                  numberOfDAs={da_array['da_array'].length}
-                  isUpdated={[0,0,0,1,1]} />
-            <h3>{this.state.da.da_title}</h3>
-            {sections}
-          </div>
+            <Card>
+                <Tabs
+                    onChange={this.handleChange.bind(this)}
+                    value={this.state.slideIndex}
+                >
+                    {tabs}
+                </Tabs>
+                <SwipeableViews
+                    index={this.state.slideIndex}
+                    onChangeIndex={this.handleChange.bind(this)}
+                >
+                    {sections}
+                </SwipeableViews>
+            </Card>
         );
     }
 }

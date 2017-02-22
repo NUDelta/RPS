@@ -27,12 +27,12 @@ class Snapshot extends React.Component {
                 <Grid fluid={true}>
                     <Row>
                         <Col xs={10} xsOffset={1}>
-                            <h3>Project Context</h3>
+                            <h3>Design Arguments</h3>
                         </Col>
                     </Row>
                     <Row>
                         <Col xs={10} xsOffset={1}>
-                	       <ProjectContext />
+                           <Feedback />
                         </Col>
                     </Row>
                 </Grid>
