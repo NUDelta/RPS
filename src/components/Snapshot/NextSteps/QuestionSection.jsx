@@ -1,5 +1,8 @@
 import React from 'react';
-import styles from '../styles/Snapshot.css';
+import {Card, CardHeader, CardText} from 'material-ui/Card';
+import {Row, Col} from 'react-flexbox-grid';
+
+import styles from './styles/QuestionSection.css';
 import classNames from 'classnames/bind';
 
 import BestPractice from './BestPractice';
@@ -19,26 +22,20 @@ class QuestionSection extends React.Component {
             );
         }
         return (
-        	<div>
-        		<div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div className='panel panel-default'>
-                  <div className="panel-heading" role="tab" id={"heading"+this.props.questionData.qn_number}>
-                    <h4 className="panel-title">
-                      <a role="button" data-toggle="collapse" data-parent="#accordion" href={"#collapse"+this.props.questionData.qn_number} aria-expanded="true" aria-controls={"collapse"+this.props.questionData.qn_number}>
-                        {this.props.questionData.qn_number + '. ' + this.props.questionData.qn_title}
-                      </a>
-                    </h4>
-                  </div>
-                  <div id={"collapse"+this.props.questionData.qn_number} className='panel-collapse collapse' role="tabpanel" aria-labelledby={"heading"+this.props.questionData.qn_number}>
-                    <div className="panel-body">
-                      <ul>
-                        {bestPractices}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                </div>
-            </div>
+            <Row>
+                <Col xs={12}>
+                    <Card className={cx('question')}>
+                        <CardHeader
+                            title={"Q" + this.props.questionData.qn_number + ": " + this.props.questionData.qn_title}
+                            actAsExpander={true}
+                            showExpandableButton={true}
+                        />
+                        <CardText expandable={true}> 
+                            {bestPractices}
+                        </CardText>
+                    </Card>
+                </Col>
+            </Row>        	
         );
     }
 }
