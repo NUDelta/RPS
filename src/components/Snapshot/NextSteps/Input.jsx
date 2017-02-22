@@ -1,5 +1,6 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
+import {Row, Col} from 'react-flexbox-grid';
 
 import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
@@ -29,18 +30,20 @@ class Input extends React.Component {
 
     render() {
         return (
-        	<div className="form-group">
-              <form onSubmit={this.handleSubmit.bind(this)}>
-                <TextField
-                    onChange={this.changeHandler.bind(this)}
-                    id="nextSteps" 
-                    value={this.state.text}
-                    autoComplete="off"
-                    fullWidth={true}
-                    floatingLabelText="Add A New Focus"
-                />
-              </form>
-            </div>
+            <Row>
+                <Col xs={12}>
+                    <form onSubmit={this.handleSubmit.bind(this)}>
+                    <TextField
+                        onChange={this.changeHandler.bind(this)}
+                        id="nextSteps" 
+                        value={this.state.text}
+                        autoComplete="off"
+                        fullWidth={true}
+                        floatingLabelText="Add A New Focus"
+                    />
+                    </form>
+                </Col>
+            </Row>
         );
     }
 }

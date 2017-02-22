@@ -1,5 +1,8 @@
 import React from 'react';
-import styles from '../styles/Snapshot.css';
+import {Card} from 'material-ui/Card';
+import {Grid} from 'react-flexbox-grid';
+
+import styles from './styles/NextSteps.css';
 import classNames from 'classnames/bind';
 import next_steps_array from '../../../data/next_steps_kapil.json';
 
@@ -36,11 +39,13 @@ class NextSteps extends React.Component {
         }
 
         return (
-        	<div>
-                {questions}
-                {this.state.suggestedFocuses}
-                <Input addSuggestedFocus={this.addSuggestedFocus.bind(this)}/>
-            </div>
+        	<Card>
+                <Grid className={cx('nextSteps')} fluid={true}>
+                    {questions}
+                    {this.state.suggestedFocuses}
+                    <Input addSuggestedFocus={this.addSuggestedFocus.bind(this)}/>
+                </Grid>
+            </Card>
         );
     }
 }

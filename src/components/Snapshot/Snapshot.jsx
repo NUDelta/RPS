@@ -5,16 +5,24 @@ import {Grid, Row, Col} from 'react-flexbox-grid';
 import styles from './styles/Snapshot.css';
 import classNames from 'classnames/bind';
 
-import ProjectContext from './ProjectContext/ProjectContext';
-import Feedback from './Feedback/Feedback';
+import ProjectContext from './Progress/ProjectContext';
+import Progress from './Progress/DesignArguments';
 import NextSteps from './NextSteps/NextSteps';
 import Issues from './Issues/Issues';
+
+import da_array from '../../data/da_array_kapil.json';
+import context_array from '../../data/context_array_template.json';
+
 
 let cx = classNames.bind(styles);
 
 class Snapshot extends React.Component {
 	constructor(props) {
         super(props);
+        this.state = {
+          arguments: da_array['da_array'],
+          context: context_array['context_array']
+        };
     }
 
     render() {
@@ -27,12 +35,22 @@ class Snapshot extends React.Component {
                 <Grid fluid={true}>
                     <Row>
                         <Col xs={10} xsOffset={1}>
+                            <h3>Project Context</h3>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={10} xsOffset={1}>
+                           <ProjectContext contextSections={this.state.context} />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={10} xsOffset={1}>
                             <h3>Design Arguments</h3>
                         </Col>
                     </Row>
                     <Row>
                         <Col xs={10} xsOffset={1}>
-                           <Feedback />
+                           <Progress arguments={this.state.arguments}/>
                         </Col>
                     </Row>
                     <Row>
