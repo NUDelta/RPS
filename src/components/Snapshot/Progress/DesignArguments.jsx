@@ -27,14 +27,16 @@ class Feedback extends React.Component {
 
     render() {
         let tabs = [];
-        let sections = [];
+        let sectionsList = [];
         let swipeIterator = 0;
 
         for (var da of this.props.arguments) {
-        
+            let sections = [];
             for (var section of da.sections) {
                 sections.push(<Section sectionData={section} />);
             }
+
+            sectionsList.push(<div>{sections}</div>);
 
             tabs.push(
                 <Tab key={swipeIterator} value={swipeIterator} label={"D. Argument #" + da.da_number}></Tab>
@@ -43,6 +45,7 @@ class Feedback extends React.Component {
             swipeIterator++;
         }
 
+        console.log(sectionsList)
 
         return (
             <Card>
@@ -56,7 +59,7 @@ class Feedback extends React.Component {
                     index={this.state.slideIndex}
                     onChangeIndex={this.handleChange.bind(this)}
                 >
-                    {sections}
+                    {sectionsList}
                 </SwipeableViews>
             </Card>
         );

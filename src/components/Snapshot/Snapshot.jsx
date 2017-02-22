@@ -10,7 +10,7 @@ import Progress from './Progress/DesignArguments';
 import NextSteps from './NextSteps/NextSteps';
 import Issues from './Issues/Issues';
 
-import da_array from '../../data/da_array_kapil.json';
+import da_array from '../../data/da_array_template.json';
 import context_array from '../../data/context_array_template.json';
 
 
