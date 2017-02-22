@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from '../styles/Snapshot.css';
+import {Card} from 'material-ui/Card';
+
+import styles from './styles/Issues.css';
 import classNames from 'classnames/bind';
 import issues from '../../../data/issues_test.json';
 
@@ -21,12 +23,11 @@ class Issues extends React.Component {
             );
         }
         return (
-          <div>
-            <h1>Issues</h1>
+          <Card className={cx('issues')}>
             <ul>
               {issues}
             </ul>
-          </div>
+          </Card>
         );
     }
 }
