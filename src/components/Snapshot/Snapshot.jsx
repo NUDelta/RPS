@@ -35,6 +35,16 @@ class Snapshot extends React.Component {
                            <Feedback />
                         </Col>
                     </Row>
+                    <Row>
+                        <Col xs={10} xsOffset={1}>
+                            <h3>Next Steps</h3>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={10} xsOffset={1}>
+                           <NextSteps />
+                        </Col>
+                    </Row>
                 </Grid>
             </div>
         );

@@ -37,7 +37,6 @@ class NextSteps extends React.Component {
 
         return (
         	<div>
-        		<h1>Next Steps</h1>
                 {questions}
                 {this.state.suggestedFocuses}
                 <Input addSuggestedFocus={this.addSuggestedFocus.bind(this)}/>

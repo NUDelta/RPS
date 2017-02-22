@@ -1,4 +1,6 @@
 import React from 'react';
+import TextField from 'material-ui/TextField';
+
 import styles from '../styles/Snapshot.css';
 import classNames from 'classnames/bind';
 
@@ -15,7 +17,6 @@ class Input extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log(this.state.text);
         this.props.addSuggestedFocus(this.state.text);
         this.setState({
             text: ''
@@ -29,15 +30,14 @@ class Input extends React.Component {
     render() {
         return (
         	<div className="form-group">
-              <label htmlFor="nextSteps">Add More:</label>
               <form onSubmit={this.handleSubmit.bind(this)}>
-                <input 
+                <TextField
                     onChange={this.changeHandler.bind(this)}
-                    type="text" 
-                    className="form-control" 
                     id="nextSteps" 
                     value={this.state.text}
                     autoComplete="off"
+                    fullWidth={true}
+                    floatingLabelText="Add A New Focus"
                 />
               </form>
             </div>
