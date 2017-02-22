@@ -65,7 +65,7 @@ class Snapshot extends React.Component {
                     </Row>
                     <Row>
                         <Col xs={10} xsOffset={1}>
-                            <h3>Next Steps</h3>
+                            <h3>Suggested Next Steps</h3>
                         </Col>
                     </Row>
                     <Row>

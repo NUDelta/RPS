@@ -1,0 +1,74 @@
+{"next_steps_array":[
+	{
+		"qn_number": 10,
+		"qn_title": "What should users do? (and what should happen when the do?)",
+		"best_practices": [
+			{
+				"bp_number":81,
+				"bp_text":"What are the ideal outcomes for your design argument? Is your outcome measurable?"
+			}
+		]
+	},
+	{
+		"qn_number": 11,
+		"qn_title": "Where can designs go wrong? What may prevent a user from reaching their goal?",
+		"best_practices": [
+			{
+				"bp_number":19,
+				"bp_text":"What are possible obstacles to reaching these ideal outcomes? Where could your design fail? What are the critical components?"
+			},
+			{
+				"bp_number":20,
+				"bp_text":"What tensions are not captured? What assumptions were incorrect? Are you focusing on the correct obstacles?"
+			}
+		]
+	},
+	{
+		"qn_number": 12,
+		"qn_title": "What are the core characteristics of your design?",
+		"best_practices": [
+			{
+				"bp_number":12,
+				"bp_text":"What are the adjectives or really the essence of your design? If you were to describe possible ways to solve the problem what would they have in common? Characteristics could be like \"Takes 5 min to complete\" or \"Low effort\""
+			}
+		]
+	},
+	{
+		"qn_number": 14,
+		"qn_title": "What is your conceptual approach to solving the problem?",
+		"best_practices": [
+			{
+				"bp_number":17,
+				"bp_text":"This should be a concise, one sentence statement of desired outcome, intervention, and why it should work. See some example [one-line pitches here](http://www.thepitchclinic.com/investor-pitch/how-to-craft-a-one-liner-pitch)."
+			}
+		]
+	},
+	{
+		"qn_number": 15,
+		"qn_title": "What is your design argument?",
+		"best_practices": [
+			{
+				"bp_number":45,
+				"bp_text":"Review the guide on [design arguments](https://drive.google.com/drive/u/1/folders/0B1W1NVL-15FBUHlxT0dDYVRrVVk)."
+			}
+		]
+	},
+	{ 
+		"qn_number": 16,
+		"qn_title": "Will your design work? Is it novel?",
+		"best_practices": [
+			{
+				"bp_number":74,
+				"bp_text":"Be specific about user recruitment, the scenario in which you will test, what exactly will the users be doing in this scenario, and how you will be able to facilitate the test."
+			}, 
+			{
+				"bp_number":75,
+				"bp_text":"Be specific about measurements. What will you measure and how will it confirm/deny your design argument? Note that you should aim to measure not only outcomes but causes for outcomes."
+			}, 
+			{
+				"bp_number":76,
+				"bp_text":"Reevaluate your design arguments using [these questions](https://drive.google.com/drive/u/1/folders/0B1W1NVL-15FBUHlxT0dDYVRrVVk)"
+			}		
+		]
+	}
+]}

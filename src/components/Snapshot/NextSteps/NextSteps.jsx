@@ -4,7 +4,7 @@ import {Grid} from 'react-flexbox-grid';
 
 import styles from './styles/NextSteps.css';
 import classNames from 'classnames/bind';
-import next_steps_array from '../../../data/next_steps_kapil.json';
+import next_steps_array from '../../../data/next_steps_josh_2_22.json';
 
 import QuestionSection from './QuestionSection';
 import Input from './Input';
