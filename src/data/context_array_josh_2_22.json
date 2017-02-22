@@ -8,14 +8,14 @@
                 {
                     "question_number":1,
                     "question_text":"Who are the users?",
-                    "question_answers": "answer_1",
+                    "question_answers": "Intermediate programmers",
                     "question_updated":0,
                     "question_confidence":1
                 },
                 {
                     "question_number":2,
                     "question_text":"What are their high level tasks and goals?",
-                    "question_answers": "answer_2",
+                    "question_answers": "Learn coding concepts in a fun and creative environment with a group of friends",
                     "question_updated":0,
                     "question_confidence":1
                 }
@@ -29,21 +29,21 @@
                 {
                     "question_number":3,
                     "question_text":"Are users struggling to accomplish their goals (what are their struggles?)",
-                    "question_answers": "answer_3",
+                    "question_answers": "Few platforms that encourage learning computer science skills in a collaborative and creative environment, may view coding as a “loner” or non-expressive activity",
                     "question_updated":0,
                     "question_confidence":1
                 },
                 {
                     "question_number":4,
                     "question_text":"Are these struggles the result of a design challenge?",
-                    "question_answers": "answer_4",
+                    "question_answers": "Yes--designing learning environments for people",
                     "question_updated":0,
                     "question_confidence":1
                 },
                 {
                     "question_number":5,
                     "question_text":"Can the problem already be solved with current technology?",
-                    "question_answers": "answer_4",
+                    "question_answers": "Can be solved with current tech",
                     "question_updated":0,
                     "question_confidence":1
                 }   
@@ -57,21 +57,21 @@
                 {
                     "question_number":6,
                     "question_text":"Who is the practical audience?",
-                    "question_answers": "answer_6",
+                    "question_answers": "learners",
                     "question_updated":0,
                     "question_confidence":1
                 },
                 {
                     "question_number":7,
                     "question_text":" Why do they care (is this problem important?)",
-                    "question_answers": "answer_7",
+                    "question_answers": "people who don’t have exposure to computer science at an early age or only have experience coding in a class setting may not see how coding can be applied to creative purposes",
                     "question_updated":0,
                     "question_confidence":1
                 },
                 {
                     "question_number":8,
                     "question_text":"What’s your problem statement? (does it capture a core tension? Agent wants X but Y)",
-                    "question_answers": "answer_8",
+                    "question_answers": "learners would like to be able to work with people to express creativity through code, but are discouraged from doing so because many learning environments don’t include creativity as a part of the curriculum. Users are interested in computer science and want to ",
                     "question_updated":0,
                     "question_confidence":1
                 }   
