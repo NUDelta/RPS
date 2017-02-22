@@ -31,7 +31,9 @@ class QuestionSection extends React.Component {
                             showExpandableButton={true}
                         />
                         <CardText expandable={true}> 
-                            {bestPractices}
+                            <ul>
+                                {bestPractices}
+                            </ul>
                         </CardText>
                     </Card>
                 </Col>

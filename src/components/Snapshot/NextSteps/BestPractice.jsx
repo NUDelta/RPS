@@ -13,7 +13,7 @@ class BestPractice extends React.Component {
     render() {
         return (
           <li>
-            <ReactMarkdown source={"BP #" + this.props.bpData.bp_number + ": " + this.props.bpData.bp_text}/>
+            <ReactMarkdown source={"Best Practice #" + this.props.bpData.bp_number + ": " + this.props.bpData.bp_text}/>
           </li>
         );
     }
