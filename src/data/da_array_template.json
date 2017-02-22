@@ -72,9 +72,238 @@
 				"section_updated":0,
 				"questions":[
 					{
+						"question_number":14,
+						"question_text":"What is your conceptual approach to solving the problem?",
+						"question_answers": "da1_answer_14",
+						"question_updated":0,
+						"question_confidence":1
+					},
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "da1_answer_15",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":9,
+				"section_title":"Check your arguments",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":16,
+						"question_text":"Will your design work? Is it novel?",
+						"question_answers": "da1_answer_16",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			}
+		]
+	},
+	{
+		"da_number": 2,
+		"da_title": "Design Argument 1",
+		"sections": [
+			{
+				"section_number":4,
+				"section_title":"Describe the desire outcomes",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":9,
+						"question_text":"What’s a real example of what a user wants to do? (concrete user class / scenario)",
+						"question_answers": "da2_answer_9",
+						"question_updated":0,
+						"question_confidence":1
+					},
+					{
+						"question_number":10,
+						"question_text":"What should users do? (and what should happen when the do?)",
+						"question_answers": "da2_answer_10",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":5,
+				"section_title":"Describe core obstacles",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":11,
+						"question_text":"Where can designs go wrong? What may prevent a user from reaching their goal?",
+						"question_answers": "da2_answer_11",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":6,
+				"section_title":"Describe the design intervention",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":12,
+						"question_text":"What are the core characteristics of your design?",
+						"question_answers": "da2_answer_12",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":7,
+				"section_title":"Constructing arguments",
+				"section_updated":0,
+				"questions":[
+					{
 						"question_number":13,
 						"question_text":"Why would the design work?",
-						"question_answers": "da1_answer_13",
+						"question_answers": "da2_answer_13",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":8,
+				"section_title":"Write the design argument",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":14,
+						"question_text":"What is your conceptual approach to solving the problem?",
+						"question_answers": "da2_answer_14",
+						"question_updated":0,
+						"question_confidence":1
+					},
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "da2_answer_15",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":9,
+				"section_title":"Check your arguments",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":16,
+						"question_text":"Will your design work? Is it novel?",
+						"question_answers": "da2_answer_16",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			}
+		]
+	},
+	{
+		"da_number": 3,
+		"da_title": "Design Argument 1",
+		"sections": [
+			{
+				"section_number":4,
+				"section_title":"Describe the desire outcomes",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":9,
+						"question_text":"What’s a real example of what a user wants to do? (concrete user class / scenario)",
+						"question_answers": "da3_answer_9",
+						"question_updated":0,
+						"question_confidence":1
+					},
+					{
+						"question_number":10,
+						"question_text":"What should users do? (and what should happen when the do?)",
+						"question_answers": "da3_answer_10",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":5,
+				"section_title":"Describe core obstacles",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":11,
+						"question_text":"Where can designs go wrong? What may prevent a user from reaching their goal?",
+						"question_answers": "da3_answer_11",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":6,
+				"section_title":"Describe the design intervention",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":12,
+						"question_text":"What are the core characteristics of your design?",
+						"question_answers": "da3_answer_12",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":7,
+				"section_title":"Constructing arguments",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":13,
+						"question_text":"Why would the design work?",
+						"question_answers": "da3_answer_13",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":8,
+				"section_title":"Write the design argument",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":14,
+						"question_text":"What is your conceptual approach to solving the problem?",
+						"question_answers": "da3_answer_14",
+						"question_updated":0,
+						"question_confidence":1
+					},
+					{
+						"question_number":15,
+						"question_text":"What is your design argument?",
+						"question_answers": "da3_answer_15",
+						"question_updated":0,
+						"question_confidence":1
+					}
+				]
+			},
+			{
+				"section_number":9,
+				"section_title":"Check your arguments",
+				"section_updated":0,
+				"questions":[
+					{
+						"question_number":16,
+						"question_text":"Will your design work? Is it novel?",
+						"question_answers": "da3_answer_16",
 						"question_updated":0,
 						"question_confidence":1
 					}
