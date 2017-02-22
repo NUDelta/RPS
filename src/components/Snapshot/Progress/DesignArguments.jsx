@@ -1,9 +1,10 @@
 import React from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import {Card, CardHeader} from 'material-ui/Card';
+import {Grid} from 'react-flexbox-grid'
 import SwipeableViews from 'react-swipeable-views';
 
-import styles from '../styles/Snapshot.css';
+import styles from './styles/DesignArguments.css';
 import classNames from 'classnames/bind';
 
 
@@ -36,7 +37,7 @@ class Feedback extends React.Component {
                 sections.push(<Section sectionData={section} />);
             }
 
-            sectionsList.push(<div>{sections}</div>);
+            sectionsList.push(<Grid className='grid' fluid={true}>{sections}</Grid>);
 
             tabs.push(
                 <Tab key={swipeIterator} value={swipeIterator} label={"D. Argument #" + da.da_number}></Tab>
@@ -49,6 +50,7 @@ class Feedback extends React.Component {
 
         return (
             <Card>
+                
                 <Tabs
                     onChange={this.handleChange.bind(this)}
                     value={this.state.slideIndex}

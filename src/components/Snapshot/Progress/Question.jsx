@@ -29,15 +29,22 @@ class Question extends React.Component {
       } else {
         question_color = {color:'black'}
       }
+      //var title_html = <div><span className={cx('chip')}>{"Q" + this.props.questionData.question_number + ": " + this.props.questionData.question_text}</span><Chip className={cx('chip')}><Avatar size={32}>{this.props.questionData.question_confidence}</Avatar>Student Confidence</Chip></div>;
+      var title_html = <div>{"Q" + this.props.questionData.question_number + ": " + this.props.questionData.question_text}</div>;
         return (
             <Row>
                 <Col xs={12}>
                     <Card className={cx('question')} expanded={this.state.expanded} onExpandChange={this.handleExpandChange.bind(this)}>
                         <CardHeader
-                            title={"Q" + this.props.questionData.question_number + ": " + this.props.questionData.question_text}
-                            subtitle={<Chip><Avatar size={32}>{this.props.questionData.question_confidence}</Avatar>Student Confidence</Chip>}
+                            title={title_html}
+                            subtitle={"Student Confidence Number: " + this.props.questionData.question_confidence}
                             actAsExpander={true}
                             showExpandableButton={true}
+                            titleColor={this.props.questionData.question_updated ? 'white' : 'black'}
+                            //subtitleColor={this.props.questionData.question_updated ? 'white' : 'black'}
+                            style={
+                                {backgroundColor:this.props.questionData.question_updated ? 'rgba(46, 204, 113,0.8)' : 'white'}
+                            }
                         />
                         <CardText expandable={true}> 
                             <ReactMarkdown source={this.props.questionData.question_answers}/>
