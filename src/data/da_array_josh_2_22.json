@@ -123,7 +123,7 @@
 						"question_number":10,
 						"question_text":"What should users do? (and what should happen when the do?)",
 						"question_answers": "User should be able to communicate both verbally and with code with teammates and understand the code of other teammates",
-						"question_updated":0,
+						"question_updated":1,
 						"question_confidence":4
 					}
 				]
