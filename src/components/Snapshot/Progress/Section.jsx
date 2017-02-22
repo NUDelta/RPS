@@ -12,6 +12,14 @@ let cx = classNames.bind(styles);
 class Section extends React.Component {
 	constructor(props) {
         super(props);
+        this.state = {
+            expanded: this.props.sectionData.section_updated == 1 ? true : false
+        };
+    }
+    handleExpandChange(){
+        this.setState({
+            expanded: !this.state.expanded
+        });
     }
     render() {
         var questions = [];
@@ -21,7 +29,7 @@ class Section extends React.Component {
             );
         }
         return (
-            <Card className={cx('section')} expanded={this.props.sectionData.section_updated == 1 ? true : false}>
+            <Card className={cx('section')} expanded={this.state.expanded} onExpandChange={this.handleExpandChange.bind(this)}>
                 <CardHeader
                     title={"S" + this.props.sectionData.section_number + ": " + this.props.sectionData.section_title}
                     actAsExpander={true}
