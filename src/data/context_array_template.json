@@ -1,0 +1,81 @@
+{"context_array": 
+    [
+        {
+            "section_number":1,
+            "section_title":"Identify a design situation",
+            "section_updated":0,
+            "questions":[
+                {
+                    "question_number":1,
+                    "question_text":"Who are the users?",
+                    "question_answers": "answer_1",
+                    "question_updated":0,
+                    "question_confidence":1
+                },
+                {
+                    "question_number":2,
+                    "question_text":"What are their high level tasks and goals?",
+                    "question_answers": "answer_2",
+                    "question_updated":0,
+                    "question_confidence":1
+                }
+            ]
+        }, 
+        {
+            "section_number":2,
+            "section_title":"Test whether this design problem (i.e requires a design solution)",
+            "section_updated":0,
+            "questions":[
+                {
+                    "question_number":3,
+                    "question_text":"Are users struggling to accomplish their goals (what are their struggles?)",
+                    "question_answers": "answer_3",
+                    "question_updated":0,
+                    "question_confidence":1
+                },
+                {
+                    "question_number":4,
+                    "question_text":"Are these struggles the result of a design challenge?",
+                    "question_answers": "answer_4",
+                    "question_updated":0,
+                    "question_confidence":1
+                },
+                {
+                    "question_number":5,
+                    "question_text":"Are these struggles the result of a design challenge?",
+                    "question_answers": "answer_4",
+                    "question_updated":0,
+                    "question_confidence":1
+                }   
+            ]
+        },
+        {
+            "section_number":3,
+            "section_title":"Describe the broader impact",
+            "section_updated":0,
+            "questions":[
+                {
+                    "question_number":6,
+                    "question_text":"Who is the practical audience?",
+                    "question_answers": "answer_6",
+                    "question_updated":0,
+                    "question_confidence":1
+                },
+                {
+                    "question_number":7,
+                    "question_text":" Why do they care (is this problem important?)",
+                    "question_answers": "answer_7",
+                    "question_updated":0,
+                    "question_confidence":1
+                },
+                {
+                    "question_number":8,
+                    "question_text":"What’s your problem statement? (does it capture a core tension? Agent wants X but Y)",
+                    "question_answers": "answer_8",
+                    "question_updated":0,
+                    "question_confidence":1
+                }   
+            ]
+        }
+    ]
+}
