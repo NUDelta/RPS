@@ -22,7 +22,7 @@ class Question extends React.Component {
         return (
             <Row>
                 <Col xs={12}>
-                    <Card className={cx('question')}>
+                    <Card className={cx('question')} expanded={this.props.questionData.question_updated == 1 ? true : false}>
                         <CardHeader
                             title={"Q" + this.props.questionData.question_number + ": " + this.props.questionData.question_text}
                             actAsExpander={true}

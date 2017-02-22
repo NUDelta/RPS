@@ -21,7 +21,7 @@ class Section extends React.Component {
             );
         }
         return (
-            <Card className={cx('section')}>
+            <Card className={cx('section')} expanded={this.props.sectionData.section_updated == 1 ? true : false}>
                 <CardHeader
                     title={"S" + this.props.sectionData.section_number + ": " + this.props.sectionData.section_title}
                     actAsExpander={true}
